@@ -4,16 +4,17 @@ _throughput = input('Enter throughput value (simulation length in terms of no of
 _warm_up = input ('Enter warm up throughput value (initial no of people served):')
 replications = input ('Enter number of replications:')
 
+
 _lambda = int(lambda_interarrival) # changing input string into integer
 _myu = int(myu_service)   # changing input string into integer
 throughput = int(_throughput)   # changing input string into integer
 warm_up = int(_warm_up)   # changing input string into integer
 num_of_replications = int(replications)   # changing input string into integer
+'''
 
-####################
-####################
-####################
 
+
+'''
 import numpy as np  ## numpy library used to create exponential distribution
 
 avg_wait_per_replication = []  # creating an empty list to store wait time obtained from every replication
